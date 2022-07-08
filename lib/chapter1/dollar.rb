@@ -3,7 +3,7 @@ class Dollar
 		@money = money
 	end
 
-	def multiple(num)
-		@money * num
+	def multiple(multipler)
+		@money * multipler
 	end
 end

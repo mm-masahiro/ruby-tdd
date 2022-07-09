@@ -1,5 +1,5 @@
 class FizzBuzz
-	def fizz_buzz
-		1
+	def fizz_buzz(num)
+		num
 	end
 end

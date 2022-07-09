@@ -12,7 +12,7 @@ RSpec.describe FizzBuzz do
 			expect(fizz_buzz.fizz_buzz(2)).to eq(2)
 		end
 
-		it "3を引数に与えたら文字列Fizzを返す" do
+		it "引数に与えた数値が3の倍位数なら文字列Fizzを返す" do
 			expect(fizz_buzz.fizz_buzz(3)).to eq("Fizz")
 		end
 	end

@@ -3,6 +3,10 @@ class FizzBuzz
 		if num.modulo(3).zero?
 			return "Fizz"
 		end
+
+		if num.modulo(5).zero?
+			return "Buzz"
+		end
 		num
 	end
 end

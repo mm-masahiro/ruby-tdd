@@ -16,6 +16,12 @@ RSpec.describe FizzBuzz do
 			end
 		end
 
+		describe "15の倍数の時" do
+			it "引数に与えた数値が15の倍位数なら文字列FizzBuzzを返す" do
+				expect(fizz_buzz.fizz_buzz(15)).to eq("FizzBuzz")
+			end
+		end
+
 		describe "その他の時" do
 			it "1を引数に与えたら1を返す" do
 				expect(fizz_buzz.fizz_buzz(1)).to eq(1)

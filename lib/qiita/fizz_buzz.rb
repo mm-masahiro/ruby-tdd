@@ -1,6 +1,6 @@
 class FizzBuzz
 	def fizz_buzz(num)
-		if num % 3 == 0
+		if num.modulo(3).zero?
 			return "Fizz"
 		end
 		num

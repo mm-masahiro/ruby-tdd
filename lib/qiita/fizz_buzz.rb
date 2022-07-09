@@ -1,8 +1,11 @@
 class FizzBuzz
 	def fizz_buzz(num)
-		return "FizzBuzz" if num.modulo(3).zero? && num.modulo(5).zero?
-		return "Fizz" if num.modulo(3).zero?
-		return "Buzz" if num.modulo(5).zero?
+		is_fizz = num.modulo(3).zero?
+		is_buzz = num.modulo(5).zero?
+
+		return "FizzBuzz" if is_fizz && is_buzz
+		return "Fizz" if is_fizz
+		return "Buzz" if is_buzz
 
 		num
 	end

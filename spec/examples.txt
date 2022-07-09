@@ -1,8 +1,8 @@
 example_id                          | status | run_time        |
 ----------------------------------- | ------ | --------------- |
 ./spec/chapter1/dollar_spec.rb[1:1] | passed | 0.00079 seconds |
-./spec/qiita/fizz_buzz.rb[1:1:1:1]  | passed | 0.00027 seconds |
-./spec/qiita/fizz_buzz.rb[1:1:2:1]  | passed | 0.0015 seconds  |
-./spec/qiita/fizz_buzz.rb[1:1:3:1]  | passed | 0.00008 seconds |
-./spec/qiita/fizz_buzz.rb[1:1:4:1]  | passed | 0.00005 seconds |
+./spec/qiita/fizz_buzz.rb[1:1:1:1]  | passed | 0.00006 seconds |
+./spec/qiita/fizz_buzz.rb[1:1:2:1]  | passed | 0.00013 seconds |
+./spec/qiita/fizz_buzz.rb[1:1:3:1]  | passed | 0.00126 seconds |
+./spec/qiita/fizz_buzz.rb[1:1:4:1]  | passed | 0.00008 seconds |
 ./spec/qiita/fizz_buzz.rb[1:1:4:2]  | passed | 0.00006 seconds |
